@@ -23,7 +23,7 @@ const tarjJuego = (arrayjuegos) => {
         <h3 class="titulo">${producto.title}</h3>
         <p id="descripcion">${producto.description}</p>
         <p class="precio">$${producto.price}</p>
-        <button onclick="agregarAlCarrito(${producto.id})">
+        <button class="boton" onclick="agregarAlCarrito(${producto.id})">
         Agregar al carrito</button>
       `;
     containerProducts.appendChild(productCard);
